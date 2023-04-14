@@ -1,0 +1,9 @@
+{
+  "dataUrl": "Build/wqe.data.unityweb",
+  "frameworkUrl": "Build/wqe.framework.js.unityweb",
+  "codeUrl": "Build/wqe.wasm.unityweb",
+  "streamingAssetsUrl": "StreamingAssets",
+  "companyName": "DefaultCompany",
+  "productName": "prgame",
+  "productVersion": "1.0"
+}
