@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Рекорды игроков</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Имя игрока</th>
+        <th>Рекорд</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for player in player_records %}
+    <tr>
+        <td>{{ player.name }}</td>
+        <td>{{ player.record }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
